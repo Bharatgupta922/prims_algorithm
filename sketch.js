@@ -5,7 +5,7 @@ var vertices = [];
 function setup() {
     createCanvas(1530, 728);
 
-    for (var i = 0; i < 50; ++i) {
+    for (var i = 0; i < 100; ++i) {
         var v = createVector(random(width), random(height));
         vertices.push(v);
     }
